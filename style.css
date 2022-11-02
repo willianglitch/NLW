@@ -1,0 +1,26 @@
+#app{
+  width: fit-content;
+  margin: 52px auto;
+}
+header{
+  margin-bottom: 64px;
+}
+.card{
+  /* border: solid 1px paleturquoise; */
+  padding: 32px 23px;
+  text-align: center;
+  background: #1D1C19;
+  border-bottom: 2px solid #F7DD43;
+  border-radius: 6px;
+}
+.card .cads h2{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 53px;
+  padding: 8px 16px;
+  border: 1px solid #766615;
+  border-radius: 6px;
+}
