@@ -11,6 +11,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+body *{
+  font-family: 'Roboto', sans-serif;
+}
 ul{
   list-style: none;
 }

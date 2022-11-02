@@ -5,22 +5,53 @@
 header{
   margin-bottom: 64px;
 }
-.card{
-  /* border: solid 1px paleturquoise; */
+.cards{
   padding: 32px 23px;
   text-align: center;
   background: #1D1C19;
   border-bottom: 2px solid #F7DD43;
   border-radius: 6px;
 }
-.card .cads h2{
+.cards .card h2{
   display: flex;
   gap: 16px;
   justify-content: center;
+  align-items: center;
   width: fit-content;
-  margin: auto;
+  margin-inline: auto;
   margin-bottom: 53px;
   padding: 8px 16px;
   border: 1px solid #766615;
   border-radius: 6px;
+  color: #F7DD43;
+  font-size: 24px;
+  font-weight: bold;
+}
+.cards .card h2 span{
+  color: #E1E1E6;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  text-transform: uppercase;
+}
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 270px;
+}
+.card ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card ul li + li{
+  padding-top: 24px;
+  border-top: 1px solid #323238;
+}
+.card ul li strong{
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 125%;
+  color: #E1E1E6;
 }
