@@ -14,8 +14,8 @@ header {
 .card {
   padding: 32px 23px;
   text-align: center;
-  background: #1d1c19;
-  border-bottom: 2px solid #f7dd43;
+  background:var(--card-bg-color) ;
+  border-bottom: 2px solid var(--card-color);
   border-radius: 6px;
 }
 #cards .card h2 {
@@ -27,7 +27,7 @@ header {
   margin-inline: auto;
   margin-bottom: 53px;
   padding: 8px 16px;
-  border: 1px solid #766615;
+  border: 1px solid var(--card-title-border-color);
   border-radius: 6px;
   color: #f7dd43;
   font-size: 24px;
@@ -69,17 +69,10 @@ header {
 .card h2,
 .card ul li strong,
 .card ul li img {
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ;
 }
 .card{
-  animation: appear .8s;
+  animation: appear .8s forwards;
+  opacity: 0;
 }
-@keyframes appear {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
