@@ -6,7 +6,7 @@
 }
 body{
   background: #121214; 
-  background-image: url(./assets/bg.svg);
+  background-image: var(--bg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,11 +15,13 @@ body.blue {
   --card-color: #338AF3;
   --card-title-border-color: #338AF3; 
   --card-bg-color: #202024;
+   --bg: url(./assets/bg-blue.svg);
 }
 body.green{
   --card-color: #047C3F;
   --card-title-border-color: #047C3F;  
   --card-bg-color: #1A1F1B;
+  --bg: url(./assets/bg-green.svg);
 }
 body *{
   font-family: 'Roboto', sans-serif;
@@ -31,6 +33,7 @@ ul{
   --card-color: #f7dd43;
   --card-title-border-color: #766615;
   --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.svg);
 }
 
 @keyframes appear {
